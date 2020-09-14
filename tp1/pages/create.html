@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create article</title>
+</head>
+<body>
+    <h2>Mes Informations</h2>
+    <form action="index.php" method="get">
+        <input type="email" name="email" id="email" placeholder="Entrez votre e-mail">
+        <input type="text" name="username" id="userName" placeholder="User Name">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <p>Sexe :</p>
+        <input type="radio" name="sexe" id="masculin" value="Masculin"> <label>Masculin</label>
+        <input type="radio" name="sexe" id="feminin" value="Feminin"> <label>Feminin</label>
+        <h2>Profession :</h2>
+        <select>
+            <option value="chaumeur">chaumeur</option>
+            <option value="plombier">plombier</option>
+            <option value="maçon">maçon</option>
+            <option value="médecin">médecin</option>
+        </select>
+        <h2>Vos plats préférer</h2>
+        <input type="checkbox" name="riz" id="riz" checked /> <label for="riz">Riz</label>
+        <input type="checkbox" name="pates" id="pates" /> <label for="pates">Pâtes</label>
+        <textarea id="story" name="story"
+          rows="5" cols="33" placeholder="Votre article"></textarea>
+    </form>
+</body>
+</html>
