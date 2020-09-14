@@ -1,0 +1,115 @@
+#lejournalrelou {
+    position: relative;
+    background-color: slateblue;
+    padding: 0% 1%;
+    margin: 1% 20%;
+    height: 800px;
+}
+
+#title {
+    background-color: pink;
+    padding: 0px;
+    margin: 0px;
+}
+
+#pre-title {
+    margin: 0px;
+    border: solid 1px black ;
+}
+
+#pre-title h2 b {
+    display: inline;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#pre-title h2 div {
+    display: inline;
+    padding: 1px 10px;
+    background-color: black;
+    margin: 10px;
+}
+
+#pre-title h2 {
+    display: inline;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#big-title {
+    border: solid 1px black;
+    margin: 0px;
+    font-size: 50px;
+}
+
+
+#article {
+    position: relative;
+    background-color: powderblue;
+    display: inline;
+    width: 70%;
+    float: left;
+    margin: 0px;
+}
+
+#article-img {
+    float: right;
+    position: relative;
+    text-align: center;
+}
+
+#article-img label {
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    right: 0px;
+    background-color: grey;
+}
+
+#article-text {
+    position: relative;
+    
+}
+
+#article-bigLetter {
+    float: left;
+    padding: 0px;
+    font-size: 40px;
+}
+
+#article-bigLetter p {
+    margin: 0px;
+
+}
+
+#sider {
+    position: relative;
+    background-color: salmon;
+    display: inline;
+    width: 30%;
+    float: right;
+    margin: 0px;
+}
+
+#sider-top {
+    position: relative;
+    top: 0px;
+    border: solid 1px black;
+}
+
+#sider-top-left {
+    position: relative;
+    display: inline-block;
+    float: left;
+    border: solid 1px black;
+    width: 49%;
+
+}
+
+#sider-top-right {
+    position: relative;
+    display: inline-block;
+    float: right;
+    border: solid 1px black;
+    width: 49%;
+}
