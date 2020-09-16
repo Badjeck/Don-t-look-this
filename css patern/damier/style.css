@@ -1,0 +1,19 @@
+/* body {
+    background-color: white;
+    background-image: linear-gradient(45deg, pink 25%, transparent 25%, transparent 75%, pink 25%), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%);
+    background-size: 100px 100px;
+    background-position: 0 0, 50px 50px;
+}
+ */
+body {
+    background-image: linear-gradient(
+        to right,
+        black, black 30%,
+        white 30%,white 33%,
+        green 33%, green 63%,
+        white 63%, white 66%,
+        yellow 66%, yellow
+        );
+    
+}
+         

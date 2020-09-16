@@ -1,0 +1,51 @@
+
+/*Downloaded from https://www.codeseek.co/MattH22/css-hexagon-made-of-triangles-FfqgG */
+html, body { 
+    min-height: 100%; 
+  }
+  body {
+    background: #92c7d6;
+    background-image: -webkit-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+    background-image: -moz-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+    background-image: -o-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+    background-image: radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+  }
+  
+  .hexagon {
+    height: 260px;
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    transform-origin: 0 0;
+    transform: translateX(150px) rotate(30deg);
+  }
+  .hexagon .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 75px 0;
+    border-color: #19c transparent;
+    transform-origin: 75px 133px;
+  }
+  .hexagon .triangle:nth-child(1) {
+    transform: rotate(60deg);
+  }
+  .hexagon .triangle:nth-child(2) {
+    transform: rotate(120deg);
+  }
+  .hexagon .triangle:nth-child(3) {
+    transform: rotate(180deg);
+  }
+  .hexagon .triangle:nth-child(4) {
+    transform: rotate(240deg);
+  }
+  .hexagon .triangle:nth-child(5) {
+    transform: rotate(300deg);
+  }
+  .hexagon .triangle:nth-child(5), .hexagon .triangle:nth-child(6) {
+    border-color: #6acdf3 transparent;
+  }
+  .hexagon .triangle:nth-child(2), .hexagon .triangle:nth-child(3) {
+    border-color: #0d769d transparent;
+  }
