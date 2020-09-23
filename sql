@@ -50,3 +50,4 @@ AND f.event_name like "SQL Symphony Concert"
 AND f.date like "201712%"
 group by f.person_id
 having count(distinct f.date) = 3;
+-> Miranda Priestly
